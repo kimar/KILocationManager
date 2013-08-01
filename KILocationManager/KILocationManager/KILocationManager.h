@@ -16,7 +16,7 @@
 - (void) startUpdatingLocation:(void (^)(NSArray *locations))updateBlock;
 - (void) stopUpdatingLocation;
 
-- (CLLocationManager *)locationManager;
 - (CLAuthorizationStatus)authorizationStatus;
+- (BOOL)locationServicesEnabled;
 
 @end
