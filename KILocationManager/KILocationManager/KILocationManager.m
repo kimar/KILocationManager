@@ -7,7 +7,7 @@
 //
 
 #import "KILocationManager.h"
-#import <objc/objc-runtime.h>
+#import <objc/message.h>
 
 @interface KILocationManager () <CLLocationManagerDelegate>
 {
